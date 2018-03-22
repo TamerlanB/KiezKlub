@@ -1,0 +1,6 @@
+<?php
+  mysql_connect("rdbms.strato.de",  "U759729","salvador73") or die ("keine DB-Verbindung möglich");
+  ?>
+<?php
+  mysql_select_db("DB759729") or die ("Datenbank existiert nicht");
+  ?>
